@@ -1,0 +1,27 @@
+// =Base
+// ----------------------------------------------
+
+body
+  font-size: 100%
+  vertical-align: baseline
+  color: $primary
+  background: $secondary
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
+
+a
+  cursor: pointer
+  color: $primary
+  text-decoration: none
+  transition: color .2s
+
+  &.link
+    display: inline-block
+    font-weight: 500
+    color: $accent
+
+    &:hover
+      color: $contrast
+
+.center
+  text-align: center
